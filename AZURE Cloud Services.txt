@@ -1,0 +1,167 @@
+AZURE Cloud Services
+
+DAY -1
+
+Introduction about virtualization
+Introduction to Cloud Computing
+Overview of Azure
+History and Evolution
+
+
+Virtualization 
+
+Introduction 
+Types
+Process
+Virtual Machine
+Hypervisor
+Benefits
+
+
+Introduction
+
+-Virtualization is a process of simulating a Hardware & software resourses such as a server, storage device or network in a Virtual or software environment.
+-Scalability
+
+Types 
+- Server Virtualization 
+- Storage Vitualization
+- Network Virtualization 
+
+Virtualization Process
+
+-Basically one Server can take place of the three and all the application and run their different opertating systems this is what Virualization does.
+-Its basically consolidating all of these physical server with their different OS, application and running them on just one physical server in a virtual encironment.
+
+Virtual machine
+
+-Virtualization creates virtual hardware by cloning physical hardware.
+-The hyperVisor uses virtual hardware to create a virtual machine
+-A VM is a set of files.
+-With a hyperVisor and VM's, one computer can run multiple OS simulataneously.
+
+The HyperVisor
+
+-The software that creates and run the virtualization is called Hypervisor.
+-It allocates and controls the sharing of machine's resources such as
+ -- Storage space
+ -- RAM
+ -- CPUs
+-Two types of hypervisor is known as TYPE 1 hypervisor & Type 2 Hypervisor.
+
+TYPE_1
+
+-TYPE 1 Hypervisor installed on BARE METAL SERVER.
+-That means there is no existing operating system (or) any other software on the machine.
+-Used for hardware Virutualization.
+-In order to create a VM with a Type 1 hypervisor 
+ -- Servercase
+
+- after build our server hardware next step is to install type 1 hypervisor on top of ours baremetal server.
+- So we can create and manage VM's.
+- The hypervisor will allocates the server hardware resources, installing different OS and installing different applications.
+- Mainly used in Enterprise DataCenter.
+- Example Software 
+   -- VMWARE ESXI
+   -- CITRIX XEN SERVER
+   -- MICROSOFT HYPER- V
+
+TYPE_2
+
+-Hypervisor(type 2) installed and runs on the top of an existing operating system
+-Mostly used for OS virtualization.
+-Quick and easy.
+-Example Software
+  -- Oracle VirualBox
+  -- Microsoft virtual PC
+  -- VM workstation
+
+Benefits of Virtualization
+-Cost Savings
+-Increased Flexibility
+-Improved Management
+-Enhanced Security
+-Business Continutiy
+
+
+DAY 2
+
+Silver Lining in the Cloud
+
+-How about provisioning (renting) resources when you want them and relevent them back when you do not need them ?
+-On demand resource provisioning.
+-Also called Elasticity.
+
+Cloud - Advantages
+
+-Trade "capital expense" for "variable expense".
+-Benefit from massive economies of scale.
+-stop guessing capacity.
+-Increase speed and agility.
+-Stop spending money running and maintaining data centers.
+-"Go Global" in minutes.
+			
+cloud models
+  -- service  -> (IaaS,PaaS,SaaS)
+  -- deployment -> (public, private, Hybrid, Multi Cloud )
+
+2008 - October Project 
+2010 - Feb windows azure -> After 4 years (2014 Mar ) - Microsoft azure and launch 3 type services.
+
+60+ Azure regions and 300+ data centers.
+
+
+Service -1 [ virtual machine ]
+
+step -1 : Search
+
+
+
+Service -2 [ Resource Group ]
+
+A fundamental unit for organizing and managing cloud resources.
+
+
+
+DAY - 3
+
+Load balance 
+
+Distributing network traffic.  -> standard and gate way 
+
+process
+
+Linux -> command
+search -> load balancer and create standard
+  -- Type - Public 
+Add a frontend -> create public Ip - enter name and save
+Go to Backend -> add a backend - enter name 
+review + create 
+
+after deploy in menu go to backend pool -> add a pool
+
+   -- click Ip address
+
+
+Container Instance [ Paas ]7
+
+To run applications without mangaging servers or virtual machines it fast light weight and easy to use.
+run quickly
+no management 
+test and develop 
+isolated environment
+
+Storage Account 
+
+A storage account in azure is place to store your data like files, images, videos and more in the cloud.
+
+Types 
+ - Blob
+ - Files
+ - Tables 
+ - Queues
+ - Disk
+
+Internet IIS
+
+IIS is a webserver developed by Microsoft for the windows OS. It is used to host, deploy, and manage website and web applications.
